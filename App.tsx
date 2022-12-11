@@ -1,120 +1,68 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * Generated with the TypeScript template
- * https://github.com/react-native-community/react-native-template-typescript
- *
- * @format
- */
+import React from 'react';
+import {Image, StatusBar, StyleSheet, Text, View} from 'react-native';
 
-import React, {type PropsWithChildren} from 'react';
+import {SecondsLogo} from './src/components/logos';
 import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+  width,
+  height,
+  horizontalScale,
+  moderateScale,
+  verticalScale,
+} from './src/helpers/metrics';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-const Section: React.FC<
-  PropsWithChildren<{
-    title: string;
-  }>
-> = ({children, title}) => {
-  const isDarkMode = useColorScheme() === 'dark';
+export default () => {
   return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
+    <View style={styles.container}>
+      <StatusBar
+        translucent
+        backgroundColor={'transparent'}
+        barStyle="light-content"
+      />
+
+      <View style={styles.logoContainer}>
+        <SecondsLogo />
+        <Text style={styles.title}>Seconds</Text>
+      </View>
+      <View style={[StyleSheet.absoluteFill, styles.bgImage]}>
+        <Image source={require('./assets/images/bg-splash.png')} />
+      </View>
+      <View style={styles.descriptionContainer}>
+        <Text style={styles.description}>POPULAR SHORT VIDEOS</Text>
+      </View>
     </View>
   );
 };
 
-const App = () => {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
-  return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
-  );
-};
-
 const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
+  container: {
+    flex: 1,
+    backgroundColor: '#080C22',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
+  logoContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    zIndex: 2,
   },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
+  title: {
+    fontFamily: 'VisbyRoundCF-Bold',
+    color: 'white',
+    fontSize: moderateScale(46),
+    fontWeight: 'bold',
+    marginLeft: horizontalScale(8),
   },
-  highlight: {
-    fontWeight: '700',
+  bgImage: {
+    opacity: 0.6,
+    transform: [{translateX: -width / 5}, {translateY: -height / 4}],
+  },
+  descriptionContainer: {
+    bottom: verticalScale(68),
+    position: 'absolute',
+  },
+  description: {
+    fontFamily: 'VisbyRoundCF-Bold',
+    color: 'white',
+    fontSize: moderateScale(15),
   },
 });
-
-export default App;
