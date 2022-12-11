@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SecondsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SecondsAppTests.m */; };
+		096D0CD3E7634604A288880D /* VisbyRoundCF-DemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 657371FCDE0344D5B70C3526 /* VisbyRoundCF-DemiBold.otf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-SecondsApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-SecondsApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		255DEAEFAB2E48B88553BA44 /* VisbyRoundCF-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 051FAE3E59A44497BD444A8D /* VisbyRoundCF-Medium.otf */; };
+		26FF27E6DE2B499E915C5C68 /* VisbyRoundCF-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D02E5CD29DBA4F478D24BCA0 /* VisbyRoundCF-Regular.otf */; };
+		42D297845D394F5898ACA284 /* VisbyRoundCF-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5A492E08F9D941A286BC6709 /* VisbyRoundCF-Bold.otf */; };
+		470CEFAE5153479683A31E3C /* VisbyRoundCF-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 510615F2772849C9B3421889 /* VisbyRoundCF-Heavy.otf */; };
+		48C1C1D356174653BB535B9A /* VisbyRoundCF-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 16323A4AC453483CBAAEA6A9 /* VisbyRoundCF-ExtraLight.otf */; };
 		7699B88040F8A987B510C191 /* libPods-SecondsApp-SecondsAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-SecondsApp-SecondsAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AFA4D92F2F7E4CD9AAF8EC54 /* VisbyRoundCF-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6BC365BA69CD45D9ACEC4860 /* VisbyRoundCF-Light.otf */; };
+		D15026386C6A45C7AD2A20F9 /* VisbyRoundCF-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A297C5ED66414D0AAA83809E /* VisbyRoundCF-ExtraBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,19 +38,27 @@
 		00E356EE1AD99517003FC87E /* SecondsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* SecondsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondsAppTests.m; sourceTree = "<group>"; };
+		051FAE3E59A44497BD444A8D /* VisbyRoundCF-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Medium.otf"; path = "../assets/fonts/VisbyRoundCF-Medium.otf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* SecondsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SecondsApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = SecondsApp/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SecondsApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SecondsApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SecondsApp/main.m; sourceTree = "<group>"; };
+		16323A4AC453483CBAAEA6A9 /* VisbyRoundCF-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-ExtraLight.otf"; path = "../assets/fonts/VisbyRoundCF-ExtraLight.otf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-SecondsApp-SecondsAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SecondsApp-SecondsAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-SecondsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondsApp.debug.xcconfig"; path = "Target Support Files/Pods-SecondsApp/Pods-SecondsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		510615F2772849C9B3421889 /* VisbyRoundCF-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Heavy.otf"; path = "../assets/fonts/VisbyRoundCF-Heavy.otf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-SecondsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondsApp.release.xcconfig"; path = "Target Support Files/Pods-SecondsApp/Pods-SecondsApp.release.xcconfig"; sourceTree = "<group>"; };
+		5A492E08F9D941A286BC6709 /* VisbyRoundCF-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Bold.otf"; path = "../assets/fonts/VisbyRoundCF-Bold.otf"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-SecondsApp-SecondsAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondsApp-SecondsAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SecondsApp-SecondsAppTests/Pods-SecondsApp-SecondsAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-SecondsApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SecondsApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		657371FCDE0344D5B70C3526 /* VisbyRoundCF-DemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-DemiBold.otf"; path = "../assets/fonts/VisbyRoundCF-DemiBold.otf"; sourceTree = "<group>"; };
+		6BC365BA69CD45D9ACEC4860 /* VisbyRoundCF-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Light.otf"; path = "../assets/fonts/VisbyRoundCF-Light.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SecondsApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-SecondsApp-SecondsAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondsApp-SecondsAppTests.release.xcconfig"; path = "Target Support Files/Pods-SecondsApp-SecondsAppTests/Pods-SecondsApp-SecondsAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A297C5ED66414D0AAA83809E /* VisbyRoundCF-ExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-ExtraBold.otf"; path = "../assets/fonts/VisbyRoundCF-ExtraBold.otf"; sourceTree = "<group>"; };
+		D02E5CD29DBA4F478D24BCA0 /* VisbyRoundCF-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "VisbyRoundCF-Regular.otf"; path = "../assets/fonts/VisbyRoundCF-Regular.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -122,6 +138,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D9319BCD3FF144D89773B002 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -146,6 +163,22 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-SecondsApp-SecondsAppTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9319BCD3FF144D89773B002 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A492E08F9D941A286BC6709 /* VisbyRoundCF-Bold.otf */,
+				657371FCDE0344D5B70C3526 /* VisbyRoundCF-DemiBold.otf */,
+				A297C5ED66414D0AAA83809E /* VisbyRoundCF-ExtraBold.otf */,
+				16323A4AC453483CBAAEA6A9 /* VisbyRoundCF-ExtraLight.otf */,
+				510615F2772849C9B3421889 /* VisbyRoundCF-Heavy.otf */,
+				6BC365BA69CD45D9ACEC4860 /* VisbyRoundCF-Light.otf */,
+				051FAE3E59A44497BD444A8D /* VisbyRoundCF-Medium.otf */,
+				D02E5CD29DBA4F478D24BCA0 /* VisbyRoundCF-Regular.otf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +277,14 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				42D297845D394F5898ACA284 /* VisbyRoundCF-Bold.otf in Resources */,
+				096D0CD3E7634604A288880D /* VisbyRoundCF-DemiBold.otf in Resources */,
+				D15026386C6A45C7AD2A20F9 /* VisbyRoundCF-ExtraBold.otf in Resources */,
+				48C1C1D356174653BB535B9A /* VisbyRoundCF-ExtraLight.otf in Resources */,
+				470CEFAE5153479683A31E3C /* VisbyRoundCF-Heavy.otf in Resources */,
+				AFA4D92F2F7E4CD9AAF8EC54 /* VisbyRoundCF-Light.otf in Resources */,
+				255DEAEFAB2E48B88553BA44 /* VisbyRoundCF-Medium.otf in Resources */,
+				26FF27E6DE2B499E915C5C68 /* VisbyRoundCF-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
